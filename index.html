@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
+    <title>Plant shop</title>
+</head>
+<body>
+    <main>
+        <!-- preloader -->
+        <div class="preloader hidden"></div>
+        <!-- modal window -->
+        <div class="modal">
+            <div class="modal-info">
+                <button class="modal-info__btn"><img src="img/close.svg" alt="close"></button>
+                <img class="modal-info__img" src="img/address.svg" alt="address">
+                <h3 class="modal-info__header">Форма сайта</h3>
+                <p class="modal-info__text">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
+            </div>
+            <div class="modal-forms">
+                <input class="modal-forms__input name" type="text" name="Имя" placeholder="Имя" minlength="3" required >
+                <input class="modal-forms__input phone" type="tel" name="Номер телефона" placeholder="Номер телефона" minlength="10" required>
+            </div>
+            <div class="modal-btns">
+                <button class="btn-cancel">Отменить</button>
+                <button class="btn-send">Отправить</button>
+            </div>
+        </div>
+        <div class="main-container">
+            <section class="section">
+            <div class="container">
+                <div class="container-image">
+                    <button class="container-image__btn">
+                        <img src="img/btn.svg" alt="btn">
+                    </button>
+                </div>
+                <div class="container-content">
+                    <div class="content-btn__container">
+                        <button class="container-content__btn">Форма</button>
+                    </div>
+                    <h1 class="container-content__header">Kembang Flower Mantap</h1>
+                    <p class="container-content__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <div class="container-slider">
+                        <button class="container-slider__prev">
+                            <div class="slider-content-container">
+                                <div class="slider-container">
+                                    <span class="visibility-hidden">prev</span>
+                                    <img src="img/prev-btn.svg" alt="prev" class="btn">
+                                    <p class="slider-container__text-first">Previous</p>
+                                </div>
+                                <h2 class="container-slider__header-first">Kaktus plant</h2>
+                            </div>
+                        </button>
+                        <button class="container-slider__next">
+                            <div class="slider-content-container">
+                                <div class="slider-container">
+                                    <span class="visibility-hidden">next</span>
+                                    <p class="slider-container__text-second">Next</p>
+                                    <img src="img/next-btn.svg" alt="next" class="btn">
+                                </div>
+                                <h2 class="container-slider__header-second">Rahasia Plant</h2>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container benefits">
+                <div class="benefits-card">
+                    <div class="card-header">
+                        <img class="card-header__img" src="img/fast.svg" alt="fast">
+                        <h3 class="card-header__title"><div>Fast</div>Delivery</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-body__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <div class="card-header">
+                        <img class="card-header__img" src="img/service.svg" alt="service">
+                        <h3 class="card-header__title"><div>Great Customer</div>Service</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-body__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <div class="card-header">
+                        <img class="card-header__img" src="img/plant.svg" alt="plant">
+                        <h3 class="card-header__title"><div>Original</div>Plants</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-body__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                    </div>
+                </div>
+                <div class="benefits-card">
+                    <div class="card-header">
+                        <img class="card-header__img" src="img/price.svg" alt="fast">
+                        <h3 class="card-header__title"><div>Affordable</div>Price</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-body__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="catalog">
+                <div class="catalog-info">
+                    <h2 class="catalog-info__header">Featured Plants</h2>
+                    <select name="Cheaper First" class="catalog-info__select">
+                        <option value="Cheaper First" class="catalog-info__option">Cheaper First</option>
+                    </select>
+                </div>
+                <hr class="catalog-line">
+                <div class="catalog-plants">
+                    <a href="#" class="catalog-plants__card">
+                        <div class="catalog-plants__container">
+                            <img src="img/plant1.png" alt="plant 1" class="catalog-plants__img">
+                        </div>
+                        <h3 class="catalog-plants__title">Kaktus Plants</h3>
+                        <p class="catalog-plants__text">DR 85.000</p>
+                    </a>
+                    <a href="#" class="catalog-plants__card">
+                        <div class="catalog-plants__container">
+                            <img src="img/plant2.png" alt="plant 2" class="catalog-plants__img">
+                        </div>
+                        <h3 class="catalog-plants__title">Landak Plants</h3>
+                        <p class="catalog-plants__text">DR 105.000</p>
+                    </a>
+                    <a href="#" class="catalog-plants__card">
+                        <div class="catalog-plants__container">
+                            <img src="img/plant3.png" alt="plant 3" class="catalog-plants__img">
+                        </div>
+                        <h3 class="catalog-plants__title">Kecubung Plants</h3>
+                        <p class="catalog-plants__text">DR 85.000</p>
+                    </a>
+                    <a href="#" class="catalog-plants__card">
+                        <div class="catalog-plants__container">
+                            <img src="img/plant4.png" alt="plant 4" class="catalog-plants__img">
+                        </div>
+                        <h3 class="catalog-plants__title">Kecubung Plants</h3>
+                        <p class="catalog-plants__text">DR 85.000</p>
+                    </a>
+                    <a href="#" class="catalog-plants__card">
+                        <div class="catalog-plants__container">
+                            <img src="img/plant5.png" alt="plant 5" class="catalog-plants__img">
+                        </div>
+                        <h3 class="catalog-plants__title">Kecubung Plants</h3>
+                        <p class="catalog-plants__text">DR 85.000</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        </div>
+        
+    </main>
+</body>
+</html>

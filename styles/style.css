@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+button, select {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+.container {
+    display: flex;
+}
+.container-image {
+    background-image: url(../img/slider-img.png);
+    width: 608px;
+}
+.container-image__btn {
+    margin-left: 56px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: none;
+}
+.container-content {
+    padding-left: 77px;
+}
+.content-btn__container {
+    display: flex;
+}
+.container-content__btn {
+    background: #156963;
+    color: #fff;
+    border: none;
+    margin-left: auto;
+    margin-top: 40px;
+    width: 111px;
+    height: 36px;
+    margin-bottom: 110px;
+}
+.container-content__header {
+    color: #156963;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 82px;
+    margin: 0;
+}
+.container-content__text {
+    color: #2C1500;
+    width: 493px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 24px;
+}
+.container-slider {
+    display: flex;
+    margin-top: 110px;
+}
+.container-slider__prev {
+    width: 50%;
+    height: 160px;
+    border: none;
+    background: #fff;
+}
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+.slider-content-container {
+    margin-left: 49px;
+}
+.visibility-hidden {
+    display: none;
+}
+.btn {
+    width: 21px;
+    height: 18px;
+}
+.slider-container__text-first {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-left: 13px;
+}
+.container-slider__header-first {
+    text-align: left;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+}
+.container-slider__next {
+    background: #156963;
+    width: 50%;
+    height: 160px;
+    border: none;
+}
+.slider-container__text-second {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+    margin-right: 13px;
+}
+.container-slider__header-second {
+    text-align: left;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.modal {
+    display: none;
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 10%;
+    background: #fff;
+    z-index: 9998;
+    width: 470px;
+    box-shadow: 3.29698px 3.84647px 16.4849px 3.84647px rgba(155, 155, 155, 0.25);
+    border-radius: 8.37862px;
+}
+.modal-info {
+    text-align: center;
+}
+.modal-info__btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 22px;
+    right: 23px;
+}
+.modal-info__img {
+    padding-top: 40px;
+    padding-bottom: 19px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-info__header {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 121.5%;
+    padding-bottom: 9px;
+}
+.modal-info__text {
+    font-size: 16px;
+    width: 390px;
+    font-size: 17px;
+    line-height: 121.5%;
+    margin: auto;
+    letter-spacing: -0.025em;
+    color: #454444;
+    padding-bottom: 39px;
+}
+.modal-forms {
+    text-align: center;
+}
+.modal-forms__input {
+    width: 389px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 14px;
+}
+.modal-btns {
+    text-align: center;
+    padding-bottom: 41px;
+}
+.btn-cancel {
+    width: 185px;
+    height: 39px;
+    border: 0.630345px solid #CCE1FE;
+    box-sizing: border-box;
+    box-shadow: 0px 1.48681px 2.97363px rgba(0, 0, 0, 0.15);
+    border-radius: 15.7586px;
+    margin-right: 18px;
+}
+.btn-send {
+    width: 185px;
+    height: 39px;
+    border: 0.630345px solid #CCE1FE;
+    background: #E8F2FF;
+    box-sizing: border-box;
+    box-shadow: 0px 1.48681px 2.97363px rgba(0, 0, 0, 0.15);
+    border-radius: 15.7586px;
+}
+.benefits {
+    margin-top: 140px;
+    justify-content: space-between;
+}
+.benefits-card {
+    border: 1px solid #ccc;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 22px;
+}
+.card-header__img {
+    width: 48px;
+    height: 48px;
+}
+.card-header__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 16px;
+    color: #156963;
+}
+.card-body__text {
+    width: 236px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+    padding: 16px 16px 21px 16px;
+}
+.catalog {
+    margin-top: 83px;
+    margin-bottom: 349px;
+}
+.catalog-info {
+    display: flex;
+    justify-content: space-between;
+}
+.catalog-info__select {
+    width: 130px;
+    height: 31px;
+}
+.catalog-info__option {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.catalog-line {
+    border: 1px solid #E0E0E0;
+    margin-top: 19px;
+    margin-bottom: 24px;
+}
+.catalog-plants {
+    display: flex;
+    justify-content: space-between;
+}
+.catalog-plants__card {
+    text-align: center;
+    text-decoration: none;
+}
+.catalog-plants__card:visited {
+    color: #000;
+}
+.catalog-plants__container {
+    background: #F3F4F6;
+}
+.catalog-plants__title {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.catalog-plants__text {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.response-container, .response-item-container {
+    border: 1px solid #000;
+}
+.response-container {
+    max-height: 245px;
+    overflow: scroll;
+}
+.response-item-container {
+    text-align: left;
+}
+.response-item-container span {
+    font-weight: 800;
+}
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fbfbfb url('//cdnjs.cloudflare.com/ajax/libs/file-uploader/3.7.0/processing.gif') no-repeat center center;
+}
+  
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        width: 1280px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 4000px) {
+    body {
+        width: 80%;
+        font-size: 2rem;
+    }
+    .container-content__text {
+        width: 50%;
+    }
+    .card-body__text {
+        width: 90%;
+    }
+    .container-content__btn {
+        width: auto;
+    }
+    .benefits-card {
+        margin-left: 20px;
+    }
+    .benefits-card:first-child {
+        margin-left: 0;
+    }
+}
