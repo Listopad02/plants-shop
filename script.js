@@ -90,7 +90,7 @@ closeBtn.addEventListener('click', () => {
 submitBtn.addEventListener('click', () => {
     const phoneValue = phoneInput.value
     const nameValue = nameInput.value 
-    if (phoneValue && nameValue) {
+    if (phoneValue && nameValue.length >= 3) {
         preloader.classList.remove('hidden');  // создаем индикатор загрузки при отправке запроса 
         preloader.classList.add('visible');
         if (nameValue.length >= 3) {  // валидация имени пользователя
